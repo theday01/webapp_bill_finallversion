@@ -188,8 +188,8 @@ if (method_exists($conn, 'query')) {
     <div class="hidden md:flex w-full md:w-1/2 relative">
         <div class="absolute inset-0 z-10 bg-gradient-to-t from-dark via-dark/40 to-transparent"></div>
         <div class="absolute inset-0 z-10 bg-dark/30 mix-blend-multiply"></div>
-        <!-- High quality professional retail/business image from Unsplash -->
-        <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+        <!-- High quality professional retail/business image -->
+        <img src="src/img/login.png" 
              alt="Professional Business Image" 
              class="absolute inset-0 w-full h-full object-cover">
     </div>
