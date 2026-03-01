@@ -2,7 +2,7 @@
 return [
     // General
     'login_title' => 'Connexion',
-    'welcome_back' => 'Bon retour 👋',
+    'welcome_back' => 'Bon retour',
     'login_subtitle' => 'Connectez-vous pour gérer votre magasin',
     'username' => 'Nom d\'utilisateur',
     'password' => 'Mot de passe',

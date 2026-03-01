@@ -2,8 +2,8 @@
 return [
     // General
     'login_title' => 'تسجيل الدخول',
-    'welcome_back' => 'مرحباً بك مجدداً 👋',
-    'login_subtitle' => 'سجّل دخولك لإدارة متاجرك',
+    'welcome_back' => 'مرحباً بك مجدداً',
+    'login_subtitle' => 'سجّل دخولك لإدارة متجرك',
     'username' => 'اسم المستخدم',
     'password' => 'كلمة المرور',
     'enter_username' => 'أدخل اسم المستخدم',

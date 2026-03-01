@@ -213,6 +213,18 @@ if (method_exists($conn, 'query')) {
             <p class="text-sm md:text-base text-gray-400 font-medium"><?php echo __('login_subtitle'); ?></p>
         </div>
 
+        <div class="mb-8 bg-gradient-to-r from-yellow-500/10 to-orange-500/10 border border-yellow-500/30 rounded-2xl p-4 text-center backdrop-blur-sm">
+            <p class="text-yellow-400 font-bold mb-3 text-sm flex items-center justify-center gap-2">
+                <span class="material-icons-round text-sm">info</span>
+                <?php echo (get_locale() == 'ar') ? 'بيانات الدخول للتجربة' : 'Demo Credentials'; ?>
+            </p>
+            <div dir="ltr" class="flex justify-center gap-4 text-sm bg-black/40 py-2.5 rounded-xl border border-white/5 shadow-inner">
+                <span class="text-gray-400">User: <strong class="text-white select-all font-mono ml-1">admin</strong></span>
+                <span class="w-px bg-white/10"></span>
+                <span class="text-gray-400">Pass: <strong class="text-white select-all font-mono ml-1">123456</strong></span>
+            </div>
+        </div>
+
         <form action="login.php" method="POST" class="space-y-6">
             <?php 
             if(!empty($login_err)){

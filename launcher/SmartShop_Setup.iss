@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Smart Shop"
-#define MyAppVersion "1.0"
+#define MyAppVersion "2.9.0"
 #define MyAppPublisher "EagleShadow Technology"
 #define MyAppURL "https://eagleshadow.technology/"
 #define MyAppExeName "SmartShopLauncher.exe"
@@ -24,7 +24,7 @@ AllowNoIcons=yes
 ; Remove the following line to run in administrative mode (install for all users.)
 PrivilegesRequired=lowest
 OutputDir=..\dist_installer
-OutputBaseFilename=SmartShop_Installer
+OutputBaseFilename=SmartShop_Installer_v2.9.0
 SetupIconFile=..\src\img\favicon.ico
 Compression=lzma2/ultra64
 SolidCompression=yes
